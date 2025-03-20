@@ -7,6 +7,7 @@
     { "src": "index.js", "use": "@vercel/node" }
   ],
   "routes": [
+    { "src": "/favicon.ico", "dest": "https://coderxi.com/favicon.ico" },
     { "src": "/(.*)", "dest": "/index.js" }
   ]
 }
